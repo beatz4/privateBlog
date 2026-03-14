@@ -1,0 +1,28 @@
+/* Highlight.js theme overrides for dark/light */
+[data-theme="dark"] .hljs {
+  background: var(--color-code-bg);
+  color: #e6edf3;
+}
+
+[data-theme="dark"] .hljs-keyword { color: #ff7b72; }
+[data-theme="dark"] .hljs-string { color: #a5d6ff; }
+[data-theme="dark"] .hljs-comment { color: #8b949e; }
+[data-theme="dark"] .hljs-function { color: #d2a8ff; }
+[data-theme="dark"] .hljs-number { color: #79c0ff; }
+[data-theme="dark"] .hljs-title { color: #d2a8ff; }
+[data-theme="dark"] .hljs-built_in { color: #ffa657; }
+[data-theme="dark"] .hljs-attr { color: #79c0ff; }
+
+:root .hljs {
+  background: var(--color-code-bg);
+  color: #1a1a2e;
+}
+
+:root .hljs-keyword { color: #d73a49; }
+:root .hljs-string { color: #032f62; }
+:root .hljs-comment { color: #6a737d; }
+:root .hljs-function { color: #6f42c1; }
+:root .hljs-number { color: #005cc5; }
+:root .hljs-title { color: #6f42c1; }
+:root .hljs-built_in { color: #e36209; }
+:root .hljs-attr { color: #005cc5; }
