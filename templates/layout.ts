@@ -55,8 +55,8 @@ export function layout(opts: LayoutOptions): string {
     (function(){var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)})();
   </script>
 
-  <!-- Google AdSense - 승인 후 ca-pub-XXXXXXX를 실제 ID로 교체 -->
-  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+   <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7677313826439608" crossorigin="anonymous"></script>
 </head>
 <body>
   <nav class="nav">
